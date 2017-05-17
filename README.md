@@ -3,5 +3,5 @@ Classic Windows 98 in website form! Perfect for nostalgia, or as a portfolio web
 
 Resources:
 
-https://win95.ajf.me/win95.html
-https://copy.sh/v86/?profile=windows98
+* https://win95.ajf.me/win95.html
+* https://copy.sh/v86/?profile=windows98
