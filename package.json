@@ -1,0 +1,80 @@
+{
+  "name": "Windows98",
+  "version": "1.0.0",
+  "description": "Windows 98 mockup, in your browser.",
+  "main": "index.js",
+  "author": "Russell Brook <hello@russellbrook.co.uk>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint js/**/*.js js/**/*.jsx webpack.config.js",
+    "build": "webpack",
+    "watch": "npm run build -- --watch",
+    "dev": "webpack-dev-server"
+  },
+  "dependencies": {
+    "express": "^4.14.1",
+    "history": "^4.5.1",
+    "lodash": "^4.17.4",
+    "optimize-css-assets-webpack-plugin": "^1.3.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "react-router": "4.0.0-alpha.5",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "url-loader": "^0.5.8"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-jest": "^19.0.0",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.22.0",
+    "babel-polyfill": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-es2017": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-register": "^6.22.0",
+    "css-loader": "^0.26.1",
+    "enzyme": "^2.7.1",
+    "enzyme-to-json": "^1.5.0",
+    "eslint": "^3.16.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-config-standard-jsx": "^3.2.0",
+    "eslint-config-standard-react": "^4.2.0",
+    "eslint-loader": "^1.6.3",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-react": "^6.9.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "jest": "^19.0.2",
+    "jsdom": "^9.9.1",
+    "json-loader": "0.5.4",
+    "lost": "^8.0.0",
+    "postcss": "^5.2.15",
+    "postcss-cssnext": "^2.11.0",
+    "postcss-extend": "^1.0.5",
+    "postcss-import": "^10.0.0",
+    "postcss-loader": "^1.3.0",
+    "postcss-mixins": "^6.0.0",
+    "postcss-pxtorem": "^4.0.1",
+    "postcss-short-color": "^2.0.1",
+    "postcss-simple-vars": "^4.0.0",
+    "react-addons-test-utils": "^15.4.2",
+    "react-test-renderer": "^15.4.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheDevWhoKnocks/windows98-website.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/TheDevWhoKnocks/windows98-website.git/issues"
+  },
+  "homepage": "https://github.com/TheDevWhoKnocks/windows98-website.git#readme"
+}

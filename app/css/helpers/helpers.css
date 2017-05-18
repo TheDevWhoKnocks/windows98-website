@@ -1,0 +1,12 @@
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.underline {
+  text-decoration: underline;
+}
